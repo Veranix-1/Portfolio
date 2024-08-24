@@ -1,0 +1,22 @@
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 40px 0;
+}
+
+footer .container h1 {
+    color: white;
+    font-size: 56px;
+    font-family: "Poppins", sans-serif;
+}
+
+@media(max-width:800px) {
+    footer .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer .container nav ul{
+        flex-direction: column;
+    }
+}

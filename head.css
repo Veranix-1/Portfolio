@@ -1,0 +1,68 @@
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    color: transparent;
+    background-image: url('https://w0.peakpx.com/wallpaper/587/756/HD-wallpaper-kosmos-edge-space-night-nebula.jpg');
+    /* background-image: url(./video/171276-845168281_small.mp4); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: cover;
+    /* filter: drop-shadow(10px 10px 5px rgb(197, 224, 255)); */
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #00EEFF;
+}
+.menu i{
+    background-color: #ffffff00;
+}
+.button{
+    background-color: #ffffff00;
+    border: none;
+}
+.mods i{
+    filter: drop-shadow(0 0 10px rgb(206, 206, 206));
+}
+.mods{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+@media(max-width:700px){
+    header {
+        margin: 0px 50px 0 30px;
+    }
+    header nav{
+        display: none;
+    }
+    header .container p{
+        font-size: 70px;
+    }
+}
+@media(max-width:400px){
+    header{
+        display: flex;
+        align-items: center;
+        margin: 0px 30px;
+    }
+    header .container p{
+        font-size: 40px;
+    }
+}
